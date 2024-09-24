@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "personal-budget-react",
   "version": "0.1.0",
   "private": true,
@@ -35,5 +36,29 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "personal-budget",
+  "version": "1.0.0",
+  "description": "The path to NGInx main folder: /usr/share/nginx/html",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabionolasco/personal-budget.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabionolasco/personal-budget/issues"
+  },
+  "homepage": "https://github.com/fabionolasco/personal-budget#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.0.0"
+>>>>>>> 311ca04cf53de5d8e48b36f0e8a0e375beb262a4
   }
 }
