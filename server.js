@@ -21,7 +21,7 @@ fs.readFile('budget.json', 'utf8', (err, data) => {
     budget = JSON.parse(data);
 });
 
-app.use('/', express.static('public'))
+//app.use('/', express.static('public'))
 
 app.get("/budget", (req, res) => {
     res.json(budget);

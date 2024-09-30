@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+
 
 import {
   BrowserRouter as Router,
@@ -14,8 +15,11 @@ import Homepage from './Homepage/Homepage';
 import Footer from './Footer/Footer';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
+import PieChart from './Chart/PieChart';
+import D3Chart from './Chart/D3Chart';
 
-function App() {
+
+function App(){
   return (
     <Router>
      <Menu/>
@@ -27,6 +31,11 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/" element={<Homepage />} />
       </Routes>
+
+  <div>
+     <PieChart/>
+     <D3Chart/>
+  </div>
 
      </div> 
      <Footer/>
